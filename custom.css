@@ -1,0 +1,97 @@
+/*------------------------------
+
+  Custom stylesheet (custom.css)
+
+  Project: Food App Concept Landing Page
+  Version: 1.0
+  Author: By Malick
+  Last change: 16 April 2017
+
+  ------------------------------*/
+
+header {
+    background-color: #ED1C24;
+}
+
+wabisabi-logo {
+    width: 118px;
+}
+
+.hero {
+    background-color: #ED1C24;
+}
+
+.message {
+    padding: 50px 0 50px;
+    position: relative;
+    background-color: #f4f4f4;
+}
+
+.message h2 {
+    font-size: 2.5em;
+    font-family: proxima-soft, sans-serif;
+}
+
+.btn.btn-default, .btn.btn-color {
+  background: #B20F15;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 16px 25px 15px;
+  -webkit-transition: background .3s;
+  transition: background .3s;
+  font-size: 13px;
+}
+
+.btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-color:hover, .btn.btn-color:focus, .btn.btn-color:active {
+  background: #fff;
+  color: #000;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    color: #fff;
+    font-family: proxima-soft, sans-serif;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    color: #fff;
+    font-family: proxima-soft, sans-serif;
+}
+
+.hero p {
+    color: #fff;
+    font-family: proxima-soft, sans-serif;
+}
+
+red-back {
+    background-color: #ED1C24;
+}
+
+.app-shadow {
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.5);;
+    border-radius: 10px;
+}
+
+.app {
+    margin-top: -90px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+.app-margin {
+    margin-top: -10px;
+}
+}
+
+.app-small {
+    width: 250px;
+    margin-top: -30px;
+}
+
+@media screen and (min-width: 992px) {
+.pull-right-nav {
+    float: right !important;
+}
+}
